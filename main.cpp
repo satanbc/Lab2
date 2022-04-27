@@ -64,7 +64,7 @@ void selectAction() {
                 break;
             }
             case 2: {
-                if (hasMatrix == 1) {
+                if (hasMatrix == true) {
                     array3 = new int *[MatrixSize];
                     for (int i(0); i < MatrixSize; i++) { array3[i] = new int[MatrixSize]; }
 
